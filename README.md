@@ -4,6 +4,17 @@ A real-time computer vision system that monitors mining workers for fatigue, vit
 
 ---
 
+<div align="center">
+
+## 🎬 Demo Video
+
+[![Watch Demo on YouTube](https://img.shields.io/badge/▶%20Watch%20Full%20Demo-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=tqO06OmPuWw)
+
+*Click above to see the system running live — fatigue detection, PPE compliance, and real-time vitals in action*
+
+</div>
+
+---
 
 ## Tech Stack
 
@@ -50,8 +61,11 @@ A real-time computer vision system that monitors mining workers for fatigue, vit
 - Timestamped alert history (last 100 events) polled every 2 seconds by the frontend
 
 ---
+## System Design
 
 ![System Architecture](system_design/SystemDesign.jpeg)
+
+---
 
 ## Getting Started
 
@@ -107,7 +121,7 @@ The raw score is smoothed with an EMA (α = 0.12) to produce stable output witho
 
 ---
 
-## Closing Remarks
+## Project Summary
 
 Fatigue and PPE non-compliance are two of the leading causes of injury in mining environments. Most existing solutions depend on wearable hardware — which is expensive, requires maintenance, and often goes unused by workers. This system brings the same level of monitoring to any workstation with a webcam, running entirely in-browser with no additional infrastructure.
 
