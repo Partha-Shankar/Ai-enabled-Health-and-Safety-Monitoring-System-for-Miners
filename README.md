@@ -51,7 +51,7 @@ A real-time computer vision system that monitors mining workers for fatigue, vit
 
 ---
 
-![System Architecture](system_design/your_image_name.png)
+![System Architecture](system_design/SystemDesign.jpeg)
 
 ## Getting Started
 
